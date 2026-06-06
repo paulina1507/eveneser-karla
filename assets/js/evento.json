@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "title": "Nuestra Boda | Eveneser Caravantes Y Karla Neria",
+    "description": "Acompáñanos a celebrar nuestra boda",
+    "lang": "es",
+    "favicon": "favicon.ico"
+  },
+  "logo": {
+    "type": "text",
+    "value": "Nuestra Boda"
+  },
+  "audio": {
+    "enabled": true,
+    "src": "cancion.mp3",
+    "autoplay_on_open": true,
+    "loop": true,
+    "volume": 1,
+    "fade_in": true,
+    "icons": {
+      "play": "play.svg",
+      "pause": "pause.svg"
+    }
+  },
+  "opening": {
+    "enabled": true,
+    "phrase": {
+      "enabled": true,
+      "text": "Con mucha ilusión…",
+      "duration": 1400
+    },
+    "particles": {
+      "enabled": true,
+      "type": "leaves",
+      "count": 12
+    },
+    "scroll_hint": {
+      "enabled": true,
+      "text": "Desliza para continuar"
+    }
+  },
+  "navbar": {
+    "enabled": true,
+    "logo": {
+      "use_global": true
+    },
+    "items": [
+      {
+        "id": "inicio",
+        "label": "Inicio",
+        "href": "#inicio"
+      },
+      {
+        "id": "ubicacion",
+        "label": "Lugar",
+        "href": "#ubicacion"
+      },
+      {
+        "id": "programa",
+        "label": "Programa",
+        "href": "#programa"
+      },
+      {
+        "id": "regalos",
+        "label": "Regalos",
+        "href": "#regalos"
+      },
+      {
+        "id": "vestimenta",
+        "label": "Vestimenta",
+        "href": "#vestimenta"
+      },
+      {
+        "id": "galeria",
+        "label": "Galería",
+        "href": "#galeria"
+      },
+      {
+        "id": "rsvp",
+        "label": "Asistencia",
+        "href": "#rsvp"
+      }
+    ]
+  },
+  "hero": {
+    "enabled": true,
+    "background": "gallery1.jpg",
+    "names": {
+      "novia": "Karla",
+      "novio": "Eveneser"
+    },
+    "fecha_boda": "2026-07-25T14:00:00",
+    "countdown_labels": {
+      "dias": "Días",
+      "horas": "Horas",
+      "minutos": "Minutos",
+      "segundos": "Segundos"
+    }
+  },
+  "presentacion": {
+    "enabled": true,
+    "titulo": "Tenemos el honor de invitarte a nuestra boda",
+    "nombres": "EVENESER & KARLA",
+    "frase": "Con la gracia y bendición de Dios y el amor de nuestras familias",
+    "padres": {
+      "novia": [
+        "MARÍA CRISTINA MARTÍNEZ CÁRDENAS",
+        "CARLOS NERIA GARCÍA"
+      ],
+      "novio": [
+        "MARÍA EUGENIA CARAVANTES DÍAZ"
+      ]
+    },
+    "padrinos": [],
+    "texto_final": "Tenemos el honor de invitarte a la celebración de nuestra unión en matrimonio. Será una alegría compartir contigo este momento tan especial en nuestras vidas.",
+    "imagen": "novios.svg",
+    "labels": {
+      "padres_novia": "Padres de la Novia",
+      "padres_novio": "Familiares del Novio",
+      "padrinos": "Padrinos"
+    }
+  },
+  "ubicacion": {
+    "enabled": true,
+    "titulo": "Fecha y Ubicación",
+    "lugares": [
+      {
+        "enabled": true,
+        "tipo": "Ceremonia Religiosa y Celebración",
+        "hora": "14:00 HRS",
+        "lugar": "Jardín de Eventos Las Torres",
+        "direccion": [
+          "Tacámbaro, Tetelcingo,",
+          "C.P. 62757 Cuautla, Morelos"
+        ],
+        "mapa": "https://maps.app.goo.gl/dYryozEwwz7ZuZYM7"
+      },
+      {
+        "enabled": false,
+        "tipo": "Recepción",
+        "hora": "18:00 HRS",
+        "lugar": "Jardín Puente al Edén",
+        "direccion": [
+          "Av Begonias 537, Jardin Dorado",
+          "22200 Tijuana, B.C."
+        ],
+        "mapa": "https://maps.app.goo.gl/c6WXU2dJWzePKsAB6"
+      }
+    ]
+  },
+  "programa": {
+    "enabled": true,
+    "titulo": "Programa del Evento",
+    "progress_steps": [
+      25,
+      50,
+      75,
+      100
+    ],
+    "items": [
+      {
+        "hora": "02:00 PM",
+        "texto": "Recepción de invitados",
+        "icono": "6.svg",
+        "lado": "right"
+      },
+      {
+        "hora": "02:30 PM",
+        "texto": "Ceremonia",
+        "icono": "5.svg",
+        "lado": "left"
+      },
+      {
+        "hora": "04:30 PM",
+        "texto": "Banquete & Cóctel",
+        "icono": "7.svg",
+        "lado": "right"
+      },
+      {
+        "hora": "05:30 PM",
+        "texto": "Sesión Fotográfica y Acceso a Mesa de Dulces",
+        "icono": "1.svg",
+        "lado": "left"
+      },
+      {
+        "hora": "06:00 PM",
+        "texto": "Amenización de Evento y Dinámicas con la Cantante: “Gabriela Martinez”",
+        "icono": "2.svg",
+        "lado": "right"
+      },
+      {
+        "hora": "06:30 PM",
+        "texto": "Piñata",
+        "icono": "3.svg",
+        "lado": "left"
+      },
+      {
+        "hora": "07:00 PM",
+        "texto": "Pastel y Ramo",
+        "icono": "13.svg",
+        "lado": "right"
+      },
+      {
+        "hora": "08:30 PM",
+        "texto": "Despedida",
+        "icono": "4.svg",
+        "lado": "left"
+      }
+    ]
+  },
+  "vestimenta": {
+    "enabled": true,
+    "titulo": "Código de Vestimenta",
+    "icono": "9.svg",
+    "formal": "COCTEL/ELEGANTE",
+    "labels": {
+      "mujeres": "Mujeres",
+      "hombres": "Hombres"
+    },
+    "mujeres": "Respetuosamente se reserva el blanco para la novia",
+    "hombres": ""
+  },
+  "regalos": {
+    "enabled": true,
+    "titulo": "Sugerencia de Regalos",
+    "descripcion": "El mejor regalo es tu compañía en este día tan especial.<br>Pero si deseas tener un detalle con nosotros, agradeceremos enormemente tu obsequio. ✨",
+    "link": {
+      "enabled": true,
+      "label": "Ver mesa de regalos",
+      "url": "https://mesaderegalos.liverpool.com.mx/milistaderegalos/51992925"
+    },
+    "items": [
+      {
+        "icono": "11.svg",
+        "label": "Mesa de regalos"
+      },
+      {
+        "icono": "10.svg",
+        "label": "Lluvia de sobres"
+      }
+    ]
+},
+"galeria": {
+  "enabled": true,
+  "titulo": "Galería",
+  "imagenes": [
+    "gallery1.jpg",
+    "gallery2.jpg",
+    "gallery3.jpg",
+    "gallery4.jpg"
+  ]
+},
+"rsvp": {
+  "enabled": true,
+  "whatsapp": "522204545220",
+  "titulo": "Confirmar asistencia",
+  "texto": "Nos encantaría saber si podrán acompañarnos en este día tan especial.",
+  "nota": "Favor de confirmar antes del 05 de julio del 2026.",
+  "pase": {
+    "enabled": false,
+    "cantidad": 2,
+    "label": ""
+  },
+  "mesa": {
+    "enabled": false,
+    "numero": 4,
+    "label": ""
+  },
+  "botones": {
+    "si": "Sí, asistiremos",
+    "no": "No podremos asistir"
+  },
+  "final": {
+    "titulo": "¡Gracias por confirmar!",
+    "texto": "Nos llena de alegría saber que compartirán este día con nosotros.",
+    "firma": "Eveneser & Karla"
+  },
+  "final_no": {
+    "titulo": "Gracias por avisarnos",
+    "texto": "Lamentamos que no puedan acompañarnos, pero agradecemos mucho que nos hayan avisado."
+  }
+},
+"editorial": {
+  "hero": {
+    "enabled": true,
+    "text": "Con mucha ilusión, queremos compartir este momento contigo"
+  },
+  "presentacion": {
+    "enabled": true,
+    "text": "Nada de esto sería posible sin ellos"
+  },
+  "ubicacion": {
+    "enabled": true,
+    "text": "El lugar donde comenzará todo"
+  },
+  "programa": {
+    "enabled": true,
+    "text": "Cada momento tiene su instante"
+  },
+  "vestimenta": {
+    "enabled": true,
+    "text": "Una celebración también se viste"
+  },
+  "regalos": {
+    "enabled": true,
+    "text": "El mejor regalo es tu compañía en este día tan especial"
+  },
+  "galeria": {
+    "enabled": true,
+    "text": "Momentos que nos han traído hasta aquí"
+  },
+  "rsvp": {
+    "enabled": true,
+    "text": "¡Estamos muy emocionados por celebrar contigo!"
+  }
+},
+"footer": {
+  "enabled": true,
+  "text": "Diseñado con amor por <a href='https://shiny-maker.com/' target='_blank'>Shiny Maker Events</a>"
+}
+}
