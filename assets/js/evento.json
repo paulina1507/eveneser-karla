@@ -83,7 +83,7 @@
   },
   "hero": {
     "enabled": true,
-    "background": "gallery1.jpg",
+    "background": "hero.png",
     "names": {
       "novia": "Karla",
       "novio": "Eveneser"

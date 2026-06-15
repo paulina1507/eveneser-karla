@@ -303,7 +303,7 @@ body.content-ready .navbar {
 .hero-count {
   opacity: 0;
   transition: opacity 0.8s ease;
-  margin-top: 18px;
+  margin-top: 8px;
   position: relative;
   z-index: 5;
 }
@@ -443,7 +443,8 @@ body.content-ready .navbar {
 
   .hero-count {
     position: relative;
-    top: 55px;
+    top: 85px;
+    margin-top: 4px;
   }
 
   .hero-names {
@@ -2435,8 +2436,8 @@ body.footer-ready .music-btn {
   text-wrap: balance;
 
   text-shadow:
-    0 0 1px rgba(0,0,0,0.15),
-    0 1px 2px rgba(0,0,0,0.12);
+    0 0 1px rgba(0, 0, 0, 0.15),
+    0 1px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* =========================
@@ -2516,4 +2517,30 @@ body.footer-ready .music-btn {
 .site-footer a:hover {
   color: var(--terracota);
   opacity: 1;
+}
+
+.countdown-text {
+  max-width: 320px;
+  margin: 0 auto 2px;
+
+  font-family: "Playfair Display", serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.4;
+
+  color: rgba(255, 255, 255, .95);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .35);
+  top: 55px;
+  position: relative;
+  z-index: 5;
+}
+
+@media (max-width: 480px) {
+  .countdown-text {
+    max-width: 260px;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    margin: 20px auto 4px;
+
+  }
 }
